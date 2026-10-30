@@ -1,0 +1,41 @@
+{
+  "status": "draft_not_implemented",
+  "network_name": "S5",
+  "ticker": "S5",
+  "decimals": 8,
+  "base_units_per_coin": 100000000,
+  "max_money_s5": 21000000,
+  "consensus": {
+    "type": "proof_of_work",
+    "pow_hash": "sha256d",
+    "target_block_seconds": 600,
+    "difficulty_retarget_blocks": 2016,
+    "target_timespan_seconds": 1209600,
+    "retarget_timespan_min_factor": 0.25,
+    "retarget_timespan_max_factor": 4.0,
+    "initial_subsidy_s5": 30,
+    "halving_interval_blocks": 210000
+  },
+  "allocations_s5": {
+    "founder": 3150000,
+    "mining_budget": 12600000,
+    "community": 4200000,
+    "treasury": 1050000
+  },
+  "founder_vesting": {
+    "cliff_months": 12,
+    "monthly_tranches": 36,
+    "amount_per_tranche_s5": 87500,
+    "total_s5": 3150000,
+    "unlock_calendar": "must_be_defined_as_fixed_utc_timestamps_before_implementation"
+  },
+  "unresolved": [
+    "upstream_bitcoin_core_commit",
+    "genesis_block_and_pow_limit",
+    "network_magic_and_ports",
+    "address_prefixes_and_bech32_hrp",
+    "spendable_initial_allocation_mechanism",
+    "community_and_treasury_custody_and_release_policy",
+    "coinbase_maturity_and_fee_policy"
+  ]
+}
