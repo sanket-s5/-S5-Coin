@@ -9,7 +9,7 @@ or spendable S5 coins.
 
 ## Proposed network parameters
 
-See [`docs/consensus-draft.md`](docs/consensus-draft.md). These values are proposals,
+See ['consensus-draft.md`](consensus-draft.md). These values are proposals,
 not implemented consensus rules.
 
 ## Project principles
